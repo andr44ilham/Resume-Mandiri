@@ -1,1 +1,7 @@
+# PWM (Pulse With Modulation)
+PWM (Pulse Width Modulation) adalah teknik "manipulasi" sinyal digital untuk mensimulasikan tegangan analog. Karena mikrokontroler bersifat digital (hanya bisa mengeluarkan tegangan 0V atau 5V dan 3.3V), PWM bekerja dengan cara menyalakan dan mematikan aliran listrik (ON dan OFF) dengan frekuensi yang sangat cepat hingga ribuan kali per detik, sehingga perangkat yang dikontrol "merasakan" tegangan rata-rata di antaranya.
 
+Prinsip utama PWM terletak pada Duty Cycle, yaitu rasio persentase waktu saat sinyal berada dalam kondisi ON dibandingkan dengan total waktu satu periode sinyal. Jika duty cycle diatur sebesar 50%, maka tegangan rata-rata yang dihasilkan adalah setengah dari tegangan maksimal; jika 100%, maka perangkat menerima tenaga penuh; dan jika 0%, perangkat mati total.
+
+# Pengaruh PWM
+Dalam sistem robotika, PWM (Pulse Width Modulation) bekerja dengan cara mengatur durasi sinyal "ON" dalam satu periode frekuensi untuk menentukan jumlah energi rata-rata atau instruksi posisi yang diterima komponen. Pada kecepatan motor DC, semakin besar persentase duty cycle (waktu sinyal dalam kondisi tinggi), semakin besar tegangan rata-rata yang mengalir ke motor sehingga putarannya menjadi lebih cepat; sebaliknya, pada motor servo, lebar pulsa yang spesifik (biasanya antara 1 milidetik hingga 2 milidetik) digunakan sebagai sinyal kontrol untuk menentukan sudut posisi poros motor secara presisi (misalnya 0° hingga 180°) dan bukan untuk mengatur kecepatannya secara langsung.
