@@ -1,1 +1,5 @@
+# void setup()
+Fungsi setup() berperan sebagai fase inisialisasi di mana robot menentukan konfigurasi perangkat kerasnya sesaat setelah daya dinyalakan. Dalam paragraf ini, instruksi hanya dijalankan satu kali untuk menetapkan fungsi tiap pin (apakah sebagai input sensor atau output penggerak), mengatur kecepatan komunikasi data, serta mengaktifkan library tertentu agar sistem siap bekerja. Tanpa tahap ini, otak robot tidak akan mengenali perangkat apa saja yang terhubung ke tubuhnya, sehingga langkah awal ini menjadi fondasi bagi seluruh operasi perangkat keras.
 
+# void loop()
+Fungsi loop() adalah penentu dari perilaku robot yang berisi algoritma utama dan dijalankan secara berulang selama robot mendapatkan aliran listrik. Di dalam bagian ini, robot secara terus-menerus memproses data dari lingkungan melalui sensor, melakukan kalkulasi logika berdasarkan kondisi yang ditemukan, dan memberikan perintah instan kepada penggerak atau aktuator. Sifatnya yang repetitif memungkinkan robot untuk memberikan respon yang dinamis dan berkelanjutan, seperti terus berbelok saat mendeteksi dinding atau berhenti saat sensor mendeteksi garis hitam secara real-time.
