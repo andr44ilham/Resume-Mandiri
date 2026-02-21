@@ -1,5 +1,5 @@
 # PWM (Pulse With Modulation)
-PWM (Pulse Width Modulation) adalah teknik "manipulasi" sinyal digital untuk mensimulasikan tegangan analog. Karena mikrokontroler bersifat digital (hanya bisa mengeluarkan tegangan 0V atau 5V dan 3.3V), PWM bekerja dengan cara menyalakan dan mematikan aliran listrik (ON dan OFF) dengan frekuensi yang sangat cepat hingga ribuan kali per detik, sehingga perangkat yang dikontrol "merasakan" tegangan rata-rata di antaranya.
+PWM (Pulse Width Modulation) adalah teknik memanipulasi sinyal digital untuk mensimulasikan tegangan analog. Karena mikrokontroler bersifat digital (hanya bisa mengeluarkan tegangan 0V atau 5V dan 3.3V), PWM bekerja dengan cara menyalakan dan mematikan aliran listrik (ON dan OFF) dengan frekuensi yang sangat cepat hingga ribuan kali per detik, sehingga perangkat yang dikontrol "merasakan" tegangan rata-rata di antaranya.
 
 Prinsip utama PWM terletak pada Duty Cycle, yaitu rasio persentase waktu saat sinyal berada dalam kondisi ON dibandingkan dengan total waktu satu periode sinyal. Jika duty cycle diatur sebesar 50%, maka tegangan rata-rata yang dihasilkan adalah setengah dari tegangan maksimal; jika 100%, maka perangkat menerima tenaga penuh; dan jika 0%, perangkat mati total.
 
