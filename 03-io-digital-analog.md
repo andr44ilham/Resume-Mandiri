@@ -1,1 +1,5 @@
+# Digital I/O (Sinyal Biner)
+Digital I/O bekerja dengan prinsip biner, yaitu hanya mengenal dua kondisi yang sangat kontras: HIGH (Ada tegangan/1) dan LOW (Tidak ada tegangan/0). Sebagai Input, ia digunakan untuk mendeteksi kondisi "ya atau tidak", seperti tombol yang ditekan atau sensor limit switch yang tersentuh. Sebagai Output, ia digunakan untuk perintah sederhana seperti menyalakan lampu LED atau mematikan mesin.
 
+# Analog I/O (Sinyal Kontinu)
+Analog I/O bekerja dengan rentang nilai yang luas dan kontinu, bukan sekadar aktif atau mati. Sebagai Input, ia menggunakan Analog-to-Digital Converter (ADC) untuk membaca perubahan voltase yang halus, seperti sensor suhu yang memberikan nilai berbeda tergantung panasnya ruangan atau sensor cahaya (LDR). Sebagai Output, meskipun mikrokontroler murni digital, ia sering menggunakan teknik PWM (Pulse Width Modulation) untuk mensimulasikan tegangan analog guna mengatur kecepatan motor atau tingkat kecerahan lampu. Ini seperti keran air yang bisa kamu buka sedikit, setengah, atau penuh sesuai kebutuhan.
