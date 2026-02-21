@@ -1,7 +1,7 @@
-# Resume Mandiri
+# Resume Mandiri Pengganti Pekan 2
 ## Dasar Pemrograman Robot & Kontrol Motor
 
-Nama: (Isi Nama)
+Nama: Andra Ilham Nurfajar
 
 ## Daftar Materi
 
