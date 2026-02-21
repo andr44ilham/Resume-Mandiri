@@ -33,3 +33,7 @@ Umumnya mikrokontroler memiliki komponen utama sebagai berikut:
 
 -Timer
 
+# Peran Mikrokontroler
+Mikrokontroler berperan sebagai pusat kendali dalam robotika yang mengatur proses pembacaan sensor, pengolahan data, serta pengendalian aktuator seperti motor dan servo. Melalui program yang ditanamkan, mikrokontroler memungkinkan robot mengambil keputusan secara otomatis, misalnya untuk navigasi, menjaga keseimbangan, atau menghindari rintangan. Selain itu, mikrokontroler juga mengatur komunikasi dan sinkronisasi antar komponen sehingga sistem robot dapat bekerja secara stabil, efisien, dan responsif terhadap perubahan lingkungan.
+
+Pemilihan jenis pengendali sangat memengaruhi kemampuan robot. Untuk robot sederhana, papan 8-bit seperti Arduino Uno sudah memadai. Robot dengan kebutuhan konektivitas dan pemrosesan lebih cepat cocok menggunakan ESP32, sedangkan sistem yang membutuhkan kontrol presisi tinggi sering memakai keluarga STM32. Pada robot yang lebih kompleks, terutama yang melibatkan pemrosesan citra dan kecerdasan buatan, sering digunakan single-board computer seperti Raspberry Pi yang memiliki kemampuan komputasi lebih tinggi dibanding mikrokontroler biasa. Dengan demikian, kompleksitas tugas robot menentukan jenis pengendali yang paling tepat digunakan.
